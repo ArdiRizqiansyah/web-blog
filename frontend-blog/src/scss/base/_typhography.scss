@@ -1,0 +1,92 @@
+// font color
+.text-primary-app{
+    color: $primary-70;
+}
+
+.text-soft-primary-app{
+    color: $primary-40;
+}
+
+.text-danger-app{
+    color: $danger-main;
+}
+
+.text-success-app{
+    color: $success-main;
+}
+
+.text-muted-app{
+    color: $neutral-70;
+    font-weight: 400;
+}
+
+// background color
+.bg-danger-app{
+    background-color: $danger-main;
+    color: $text-main-10;
+}
+
+.bg-soft-danger-app{
+    background-color: $danger-surface;
+    color: $text-main-10;
+}
+
+.bg-success-app{
+    background-color: $success-main;
+    color: $text-main-10;
+}
+
+.bg-soft-success-app{
+    background-color: $success-surface;
+    color: $text-main-10;
+}
+
+.bg-blue-new{
+    background-color: $blue-3;
+    color: $neutral-90;
+}
+
+.bg-red-fail{
+    background-color: $red-1;
+    color: $neutral-90;
+}
+
+.bg-green-success{
+    background-color: $green-1;
+    color: $neutral-90;
+}
+
+.bg-yellow-warning{
+    background-color: $yellow-1;
+    color: $neutral-90;
+}
+
+.bg-red-out{
+    background-color: $red-2;
+    color: $neutral-90;
+}
+
+// font size
+.text-xs{
+    font-size: 12px;
+}
+
+.text-sm{
+    font-size: 14px;
+}
+
+.text-md{
+    font-size: 16px;
+}
+
+.text-lg{
+    font-size: 20px;
+}
+
+.text-xl{
+    font-size: 24px;
+}
+
+.text-2xl{
+    font-size: 28px;
+}

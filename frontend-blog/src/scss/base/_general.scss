@@ -1,0 +1,180 @@
+body{
+    font-family: $font-style;
+    background-color: $bg-main;
+    color: $text-main-90;
+}
+
+// table
+.table {
+    vertical-align: middle;
+
+    thead {
+        background-color: $gray-3;
+
+        th {
+            font-weight: 500 !important;
+            font-size: 12px;
+            line-height: 150%;
+            color: $neutral-70;
+        }
+    }
+
+    tbody {
+        .avatar {
+            padding: 0px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+
+        td.fw-medium {
+            font-size: 16px;
+            color: $neutral-90;
+        }
+
+        td {
+            color: $neutral-70;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 150%;
+        }
+    }
+
+    td, th {
+        padding: 13px 24px;
+    }
+}
+
+// button
+.btn-primary-app{
+    background-color: $primary-60;
+    color: $text-main-10;
+
+    &:active, &:focus, &:hover, &::before {
+        background-color: $primary-70;
+        color: $text-main-10;
+    }
+}
+
+.btn-danger-app{
+    background-color: $danger-main;
+    color: $text-main-10;
+
+    &:active, &:focus, &:hover, &::before {
+        background-color: $danger-hover;
+        color: $text-main-10;
+    }
+}
+
+.btn-success-app{
+    background-color: $success-main;
+    color: $text-main-10;
+
+    &:active, &:focus, &:hover, &::before {
+        background-color: $success-hover;
+        color: $text-main-10;
+    }
+}
+
+.btn-warning-app{
+    background-color: $warning-main;
+    color: $text-main-10;
+
+    &:active, &:focus, &:hover, &::before {
+        background-color: $warning-hover;
+        color: $text-main-10;
+    }
+}
+
+.btn-outline-primary-app{
+    border-color: $button-positive;
+    color: $button-positive;
+
+    &:active, &:focus{
+        border-color: $button-positive;
+        background-color: $button-positive;
+        color: $text-main-10;
+    }
+
+    &:hover{
+        border-color: $button-positive;
+        background-color: $button-positive;
+        color: $text-main-10;
+    }
+}
+
+.icon-link {
+    color: $neutral-70;
+    vertical-align: baseline;
+
+    svg {
+        width: 16.25px;
+        height: 16.25px;
+    }
+
+    &:hover {
+        color: $neutral-90;
+    }
+}
+
+.icon-wrapper {
+    width: 45px;
+    height: 45px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-content: center;
+    align-items: center;
+
+    .icon-wrapper-bg {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: 3;
+    }
+
+    svg, i {
+        margin: 0 auto;
+        font-size: 1.7rem !important;
+        position: relative;
+        z-index: 5;
+    }
+}
+
+// alert
+.alert-soft-primary {
+    background-color: $primary-20;
+    color: $primary-70;
+}
+
+.circular-wrap {
+    width: 80px; 
+    height: 80px; 
+    background-color: #F9F9FF;
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $primary-40;
+
+    i{
+        font-size: 35px;
+    }
+}
+
+// pagination
+.pagination{
+    .page-item{
+        color: $primary-60;
+    }
+
+    .page-link{
+        color: $primary-60;
+    }
+
+    .page-item.active .page-link{
+        background-color: $primary-60;
+        color: $text-main-10;
+    }
+}
